@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.humbrger-middle{
+    position: absolute;
+    width: 24px;
+    height: 2px;
+    background: #000;
+    transform: rotate(0);
+    transition: all 0.5s;
+}
+.humbrger-bottom{
+    position: absolute;
+    width: 16px;
+    height: 2px;
+    background: #000;
+    transform: rotate(0);
+    transition: all 0.5s;
+}
+.humbrger-middle{
+    transform: translateY(7px);
+}
+.humbrger-bottom{
+    transform: translateY(14px);
+}
+
+.shadow1{
+    box-shadow:7px  7px 0px 3px rgba(17, 17, 17, 0.78);
+}
+
+.img{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 50%;
+    top: 0;
+}
+@media screen and (min-width:768px){
+    .img{
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        width: 50%;
+        top: 0;
+    }
+}
